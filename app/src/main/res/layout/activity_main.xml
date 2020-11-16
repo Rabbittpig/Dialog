@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/test_normaldialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startNormalDialog"
+        android:text="启动常规对话框"/>
+
+    <Button
+        android:id="@+id/test_listdialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startListDialog"
+        android:text="启动带选项列表的对话框"/>
+
+    <Button
+        android:id="@+id/test_customdialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startCustomDialog"
+        android:text="启动自定义视图的对话框"/>
+
+    <Button
+        android:id="@+id/test_progressdialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startProgressDialog"
+        android:text="启动带进度条的对话框"/>
+
+    <Button
+        android:id="@+id/test_datedialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startDatePickerDialog"
+        android:text="启动带日期选择的对话框"/>
+</LinearLayout>
